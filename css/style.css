@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color:#FFF;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto; /* Durch die Angabe der Breite und Verwendung des Werts "auto" für die Seiten wird das Layout zentriert. */
+	position: relative;
+	min-height: 100%; /* Mindesthöhe für moderne Browser */
+	height:auto !important; /* Important Regel für moderne Browser */ 
+	height:100%; /* Mindesthöhe für den IE */ 
+	overflow: hidden !important; /* FF Scroll-leiste */ 
+}
+
+#header {
+	width: 760px;
+	height: 54px;
+	padding-left: 240px;
+	padding-top: 110px;
+	background-image:url(../img/header.png);
+}
+
+ul#navigation {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul#navigation li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+ul#navigation li a:link {
+	padding: 2px 9px 2px 5px;
+	font-size: 23px;
+	color: #7e7f81;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+ul#navigation li a:hover {
+	color: #81ADDE;
+}
+
+ul#navigation li span {
+	color: #81ADDE;
+}
+
+#buehne {
+	width: 1000px;
+	height: 592px;
+	background-color:#ebebeb;
+	position:relative;
+}
+
+#footer {
+	width: 1000px;
+	height: 105px;
+	background-color:#7ea3df;
+	position:relative;
+}
+
+.footertext {
+	position:absolute;
+	margin-top: 40px;
+	font-size: 18px;
+	color:#FFF;
+}
+
+.footertext span {
+	font-size: 26px;
+	letter-spacing: 0.1em;
+}
+
+.footertext a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.footertext a:hover {
+	color: #000000;
+}
