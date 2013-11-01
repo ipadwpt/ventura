@@ -3,7 +3,7 @@
 <head>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Ventura | Start</title>
+<title>Ventura | Kunde</title>
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -32,65 +32,73 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('img/button-druck-m.png','img/button-facebook-m.png','img/button-mail-m.png','img/weiter-button-m.png','img/weiter-button-links-m.png')">
+<body onload="MM_preloadImages('img/button-druck-m.png','img/button-facebook-m.png','img/button-mail-m.png','img/weiter-button-m.png')">
 <div id="container">
-<div id="headerStart">
-<!--<ul id="navigation">
-    <li><a href="kunde.php">Kunde</a></li>
+<div id="header">
+<ul id="navigation">
+    <li><a href="kunde.php"><span>Kunde</span></a></li>
     <li><a href="personal.php">Personal</a></li>
     <li><a href="bewerber.php">Bewerber</a></li>
     <li><a href="index.php">Start</a></li>
-</ul>-->
+</ul>
+</div> <!--header-->
 
-<!--<div id="headlineStart">Welcher Bereich <span>darf es sein?</span>
-</div>-->
+<div id="buehne">
+  
+<h1 style="position:absolute; left:320px; top:50px;">Danke für Ihr Interesse.</h1>  
 
-<div class="startbildRubrik" style="left:0px;"><a href="mitarbeiter.php"><img src="img/start-mitarbeiter.jpg" width="333" height="450" alt="Mitarbeiter" title="Mitarbeiter" /></a></div>
+<div id="rubrikKunde" style="background-image:url(img/ventura-kunde.jpg);"></div>
 
-<div class="startbildRubrik" style="left:333px;"><a href="kunde.php"><img src="img/start-kunden.jpg" width="334" height="450" alt="Kunde" title="Kunde" /></a></div>
-
-<div class="startbildRubrik" style="left:667px;"><a href="bewerber.php"><img src="img/start-bewerber.jpg" width="333" height="450" alt="Bewerber" title="Bewerber" /></a></div>
-
-
+<div id="rubrikAuswahl">
 
 
-<div class="startbildRubrikText" style="left:50px; width:253px;">
-<div class="startbildRubrikTextHL"><a href="mitarbeiter.php">Mitarbeiter</a></div><br />
-Ihre Mitarbeit macht uns zu einem besonderen Unternehmen.
-</div>
+<!--rubrikBox 1-->
 
-<div class="startbildRubrikText" style="left: 333px; width: 334px;">
-<div class="startbildRubrikTextHL" style="text-align:center;"><a href="kunde.php">Kunde</a></div>
-<div align="center"><br />
-  Für Ihr Unternehmen tun unsere Mitarbeiter <br />
-ihr Bestes.
-</div>
-</div>
+<div class="rubrikBox">
 
-<div class="startbildRubrikText" style="left: 696px; width: 253px;">
-<div class="startbildRubrikTextHL" style="text-align:right;"><a href="bewerber.php">Bewerber</a></div>
-<div align="right"><br />
-  Ja, wir brauchen Sie. Bewerben Sie sich <br />
-bei uns.
-</div>
-</div>
+<div class="rubrikBild"> <a href="kunde-anfrageprofil.php"><img src="img/kunde-anfrageprofil.jpg" width="180" height="138" alt="Ihr Anfrageprofil" title="Ihr Anfrageprofil" /></a> </div>
 
-<div class="weiterbutton" style="left:40px;">
-<a href="mitarbeiter.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Mitarbeiter" width="48" height="48" id="Image7" /></a>
-</div> <!--weiterbutton-->
+<h2><a href="kunde-anfrageprofil.php" title="Ihr Anfrageprofil">Ihr Anfrageprofil</a></h2>
 
-<div class="weiterbutton" style="left:360px;">
-<a href="kunde.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Kunde" width="48" height="48" id="Image8" /></a>
-</div> <!--weiterbutton-->
+<div class="rubrikText">Mit welchen Arbeitskräften kön&shy;nen wir Ihr Unter&shy;nehmen unter&shy;stützen?</div>
 
-<div class="weiterbutton" style="left:870px;"><a href="bewerber.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','img/weiter-button-links-m.png',1)"><img src="img/weiter-button-links.png" alt="Bewerber" width="48" height="48" id="Image9" /></a>
+<a href="kunde-anfrageprofil.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Ihr Anfrageprofil" width="48" height="48" id="Image5" /></a> 
 
-</div> 
-<!--weiterbutton-->
+</div> <!--rubrikBox-->
 
-</div> <!--headerStart-->
+<!--rubrikBox 2-->
+
+<div class="rubrikBox">
+
+<div class="rubrikBild"> <a href="kunde-ansprechpartner.php"><img src="img/kunde-ansprechpartner.jpg" width="180" height="138" alt="Ihr Ansprechpartner" title="Ihr Ansprechpartner" /></a> </div>
+
+<h2><a href="kunde-ansprechpartner.php" title="Ihre Ansprechpartner">Ihre Ansprechpartner</a></h2>
+
+<div class="rubrikText">Sprechen Sie mit uns. Wir sind dafür da, eine gute Lösung für Sie zu finden.</div>
 
 
+<a href="kunde-ansprechpartner.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Ihre Ansprechpartner" width="48" height="48" id="Image9" /></a> </div> <!--rubrikBox-->
+
+<!--rubrikBox 3-->
+
+<div class="rubrikBox" style="margin-right:0px;">
+
+<div class="rubrikBild"> <a href="kunde-zusammenarbeit.php"><img src="img/kunde-zusammenarbeit.jpg" width="180" height="138" alt="Unsere Zusammenarbeit" title="Unsere Zusammenarbeit" /></a> </div>
+
+<h2><a href="kunde-zusammenarbeit.php" title="Unsere Zusammenarbeit">Unsere Zusammenarbeit</a></h2>
+
+<div class="rubrikText">Alle Information rund um eine 
+gelungene Zusammenarbeit finden Sie hier.</div>
+
+<a href="kunde-zusammenarbeit.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Unsere Zusammenarbeit" width="48" height="48" id="Image10" /></a>
+
+</div> <!--rubrikBox-->
+
+
+
+</div> <!--rubrikAuswahl-->
+
+</div> <!--buehne-->
 
 <div id="footer">
 <div class="footertext" style="margin-left:42px;">Hotline <span>0202–26934850</span></div>
@@ -106,7 +114,8 @@ bei uns.
 
 </div> <!--footer-->
 
-</div> <!--container-->
+</div>
+ <!--container-->
 
 <!--Für den Ausdruck-->
 <!--<img class="nurimdruck" src="img/header.png" width="1000" height="164" />-->

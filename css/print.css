@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*********************************************
+	- 1.0 -  HIGH RES CSS
+*********************************************/
+
+	/* EXAMPLE	
+  .logo {
+  	background: url(logo2x.jpg) no-repeat;
+  	background-size: 212px 303px;
+  }
+  */
+  
+/*********************************************
+	- 2.0 -  NICHT ZU DRUCKENDS CSS
+*********************************************/
+
+  #navigation, #subnavigation, #footer {
+	display:none;
+}
+
+.nurimdruck {
+	visibility:visible;
+}

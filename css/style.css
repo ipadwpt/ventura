@@ -9,6 +9,58 @@ body {
 	background-color:#FFF;
 }
 
+p {
+	color:#7e7f81;
+	font-size:13px;
+}
+
+p a:link {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+p a:visited {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+p a:hover {
+	text-decoration:none;
+	color:#00b2e0;
+}
+
+h1 {
+	font-size:26px;
+	font-weight:700;
+	color:#999999;
+}
+
+h2 {
+	font-size:16px;
+	font-weight:400;
+	color:#7e7f81;
+	margin-bottom:7px;
+}
+
+h2 a:link {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+h2 a:visited {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+h2 a:hover {
+	text-decoration:none;
+	color:#00b2e0;
+}
+
+strong {
+	font-weight:700;
+}
+
 #container {
 	width: 1000px;
 	margin: 0 auto; /* Durch die Angabe der Breite und Verwendung des Werts "auto" für die Seiten wird das Layout zentriert. */
@@ -26,6 +78,17 @@ body {
 	padding-top: 110px;
 	background-image:url(../img/header.png);
 }
+
+#headerStart {
+	width: 1000px;
+	height: 774px;
+	position:relative;
+	background-image:url(../img/headerStart.png);
+}
+
+/************/
+/*Navigation*/
+/************/
 
 ul#navigation {
 	margin: 0px;
@@ -47,31 +110,92 @@ ul#navigation li a:link {
 	font-weight: 400;
 }
 
+ul#navigation li a:visited {
+	color: #7e7f81;
+}
+
 ul#navigation li a:hover {
-	color: #81ADDE;
+	color: #00b2e0;
 }
 
 ul#navigation li span {
-	color: #81ADDE;
+	color: #00b2e0;
 }
+
+/****************/
+/*Sub-Navigation*/
+/****************/
+
+ul#subnavigation {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	position:absolute;
+	left: 320px;
+	top: 50px;
+}
+
+ul#subnavigation li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+ul#subnavigation li a:link {
+	padding: 2px 29px 2px 5px;
+	font-size: 16px;
+	color: #7e7f81;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+ul#subnavigation li a:visited {
+	color: #7e7f81;
+}
+
+ul#subnavigation li a:hover {
+	color: #00b2e0;
+}
+
+ul#subnavigation li span {
+	color: #00b2e0;
+}
+
+/*****************/
+/*****Flächen*****/
+/*****************/
 
 #buehne {
 	width: 1000px;
-	height: 592px;
+	height: 610px;
 	background-color:#ebebeb;
 	position:relative;
+zoom: 1; filter: progid:DXImageTransform.Microsoft.Shadow(color='#D6D6D6', Direction=90, Strength=3); /* IE 6-8 */
+-webkit-box-shadow: inset 0px 0px 3px 2px #D6D6D6; /* WebKit */
+-moz-box-shadow: inset 0px 0px 3px 2px #D6D6D6; /* Firefox */
+box-shadow: inset 0px 0px 3px 2px #D6D6D6; /* Standard */
+}
+
+#textkasten {
+	position:absolute;
+	left: 295px;
+	top: 80px;
+	width: 655px;
+	height: 495px;
+	background-color:#FFF;
 }
 
 #footer {
 	width: 1000px;
 	height: 105px;
-	background-color:#7ea3df;
+	background-color:#00b2e0;
 	position:relative;
+	top:-2px;
 }
 
 .footertext {
 	position:absolute;
-	margin-top: 40px;
+	margin-top: 38px;
 	font-size: 18px;
 	color:#FFF;
 }
@@ -88,4 +212,212 @@ ul#navigation li span {
 
 .footertext a:hover {
 	color: #000000;
+}
+
+.nurimdruck {
+	visibility: hidden;
+	float:left;
+}
+
+#rubrikKunde {
+	position: absolute;
+	left: 4px;
+	bottom: 0px;
+	/* [disabled]background-image:url(../img/ventura-kunde.jpg); */
+	width: 280px;
+	height: 414px;
+}
+
+#rubrikAuswahl {
+	position: absolute;
+	left: 320px;
+	top: 130px;
+	width: 680px;
+	height: 400px;
+}
+
+.rubrikBox {
+	float:left;
+	width: 192px;
+	height:auto;
+	margin-right:32px;
+}
+
+.rubrikBild {
+	width: 180px;
+	height: 138px;
+	border: 6px solid #FFF;
+	margin-bottom:10px;
+}
+
+.rubrikText {
+	font-weight:400;
+	color:#00B2E0;
+	font-size:13px;
+	line-height:16px;
+	margin-bottom:10px;
+}
+
+.formText {
+	font-weight:400;
+	color:#00B2E0;
+	font-size:13px;
+	line-height:24px;
+	margin-bottom:10px;
+}
+
+.formText span {
+	font-size:20px;
+}
+
+.formTextKasten {
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+	width:260px;
+	height:auto;
+}
+
+.formFormularKasten {
+	float:left;
+	margin-top:30px;
+	margin-left:40px;
+	width:305px;
+	height:auto;
+}
+
+.clear {
+}
+
+.tabellenKasten {
+	margin-left:15px;
+	margin-top:15px;
+}
+
+.tabellenKastenHL {
+	font-weight:700;
+	font-size:16px;
+	line-height:22px;
+	padding-left:55px;
+	color: #7e7f81;
+	margin-bottom:5px;
+}
+
+.tabellenKastenBlau {
+	background-color: #c1e0f2;
+	background-image: url(../img/dot.png);
+	padding-top: 6px;
+	padding-bottom: 7px;
+	padding-left: 12px;
+	padding-right: 16px;
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+
+.tabellenKastenBlauAbstand {
+	background-color: #c1e0f2;
+	height:5px;
+	width:100%;
+}
+
+.tabellenKastenWeiss {
+	background-color: #FFFFFF;
+	background-image: url(../img/dot.png);
+	padding-top: 6px;
+	padding-bottom: 7px;
+	padding-left: 12px;
+	padding-right: 16px;
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+
+.tabellenKastenWeissAbstand {
+	background-color: #FFFFFF;
+	height:5px;
+	width:100%;
+}
+
+.liste {
+}
+
+.liste ul {
+}
+
+.liste li {
+	/* [disabled]list-style-image: url(../img/dot.png); */
+	list-style-position: outside;
+	font-size: 13px;
+	line-height: 16px;
+	color: #666;
+	padding-left: 5px;
+	margin-left: 30px;
+}
+
+#headlineStart {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 340px;
+	top: 90px;
+	font-weight: 700;
+	font-size: 48px;
+	font-stretch: ultra-condensed;
+	color: #999;
+}
+
+#headlineStart span {
+	color:#FFF;
+}
+
+.startbildRubrik {
+	position:absolute;
+	bottom:0px;
+	width:333px;
+	height:450px;
+}
+
+.startbildRubrikText {
+	position:absolute;
+	top:230px;
+	width:333px;
+	height:70px;
+	font-size:12px;
+	line-height:16px;
+	color:#999999;
+}
+
+.startbildRubrikTextHL {
+	font-size:38px;
+	padding-bottom:0px;
+	color:#999999;
+}
+
+.startbildRubrikTextHL a:link {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+.startbildRubrikTextHL a:visited {
+	text-decoration:none;
+	color:#7e7f81;
+}
+
+.startbildRubrikTextHL a:hover {
+	text-decoration:none;
+	color:#00b2e0;
+}
+
+.weiterbutton {
+	position:absolute;
+	width:48px;
+	height:48px;
+	top:350px;
+}
+
+.googleHL {
+	position: absolute;
+	top: 40px;
+	font-weight: 700;
+	color: #999999;
+	font-size: 18px;
 }

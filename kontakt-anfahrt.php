@@ -3,7 +3,7 @@
 <head>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Ventura | Start</title>
+<title>Ventura | Kontakt|Anfahrt</title>
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -32,65 +32,43 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('img/button-druck-m.png','img/button-facebook-m.png','img/button-mail-m.png','img/weiter-button-m.png','img/weiter-button-links-m.png')">
+<body onload="MM_preloadImages('img/button-druck-m.png','img/button-facebook-m.png','img/button-mail-m.png')">
 <div id="container">
-<div id="headerStart">
-<!--<ul id="navigation">
+<div id="header">
+<ul id="navigation">
     <li><a href="kunde.php">Kunde</a></li>
     <li><a href="personal.php">Personal</a></li>
     <li><a href="bewerber.php">Bewerber</a></li>
     <li><a href="index.php">Start</a></li>
-</ul>-->
+</ul>
+</div> <!--header-->
 
-<!--<div id="headlineStart">Welcher Bereich <span>darf es sein?</span>
-</div>-->
+<div id="buehne">
 
-<div class="startbildRubrik" style="left:0px;"><a href="mitarbeiter.php"><img src="img/start-mitarbeiter.jpg" width="333" height="450" alt="Mitarbeiter" title="Mitarbeiter" /></a></div>
-
-<div class="startbildRubrik" style="left:333px;"><a href="kunde.php"><img src="img/start-kunden.jpg" width="334" height="450" alt="Kunde" title="Kunde" /></a></div>
-
-<div class="startbildRubrik" style="left:667px;"><a href="bewerber.php"><img src="img/start-bewerber.jpg" width="333" height="450" alt="Bewerber" title="Bewerber" /></a></div>
-
-
-
-
-<div class="startbildRubrikText" style="left:50px; width:253px;">
-<div class="startbildRubrikTextHL"><a href="mitarbeiter.php">Mitarbeiter</a></div><br />
-Ihre Mitarbeit macht uns zu einem besonderen Unternehmen.
+<div class="googleHL" style="left:50px;">
+Kontakt
 </div>
 
-<div class="startbildRubrikText" style="left: 333px; width: 334px;">
-<div class="startbildRubrikTextHL" style="text-align:center;"><a href="kunde.php">Kunde</a></div>
-<div align="center"><br />
-  Für Ihr Unternehmen tun unsere Mitarbeiter <br />
-ihr Bestes.
-</div>
+<div class="googleHL" style="left:295px;">
+Anfahrt
 </div>
 
-<div class="startbildRubrikText" style="left: 696px; width: 253px;">
-<div class="startbildRubrikTextHL" style="text-align:right;"><a href="bewerber.php">Bewerber</a></div>
-<div align="right"><br />
-  Ja, wir brauchen Sie. Bewerben Sie sich <br />
-bei uns.
+  <div id="textkasten" style="left: 50px; background-color: #ebebeb; width: 150px; height: 279px;">
+<p style="line-height:26px;"><strong>VENTURA GmbH</strong><br />
+Lindenstraße 3<br />
+42275 Wuppertal<br />
+T. 0202-269348-50<br />
+F. 0202-269348-59<br />
+<a href="mailto:info@venturaonline.de">info@venturaonline.de</a><br />
+<a href="http://www.venturaonline.de/">www.venturaonline.de</a></p>
 </div>
-</div>
 
-<div class="weiterbutton" style="left:40px;">
-<a href="mitarbeiter.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Mitarbeiter" width="48" height="48" id="Image7" /></a>
-</div> <!--weiterbutton-->
+  <div id="textkasten" style="border: 6px solid #FFF; width:643px; height:483px;">
+    
+<iframe width="643" height="483" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.de/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=Lindenstra%C3%9Fe+3,+42275+Wuppertal&amp;aq=&amp;sll=51.212602,7.104721&amp;sspn=0.391854,0.942764&amp;ie=UTF8&amp;hq=&amp;hnear=Lindenstra%C3%9Fe+3,+Barmen+42275+Wuppertal&amp;t=m&amp;ll=51.27181,7.201045&amp;spn=0.006565,0.013947&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+</div> <!--textkasten-->
 
-<div class="weiterbutton" style="left:360px;">
-<a href="kunde.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','img/weiter-button-m.png',1)"><img src="img/weiter-button.png" alt="Kunde" width="48" height="48" id="Image8" /></a>
-</div> <!--weiterbutton-->
-
-<div class="weiterbutton" style="left:870px;"><a href="bewerber.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','img/weiter-button-links-m.png',1)"><img src="img/weiter-button-links.png" alt="Bewerber" width="48" height="48" id="Image9" /></a>
-
-</div> 
-<!--weiterbutton-->
-
-</div> <!--headerStart-->
-
-
+</div> <!--buehne-->
 
 <div id="footer">
 <div class="footertext" style="margin-left:42px;">Hotline <span>0202–26934850</span></div>
